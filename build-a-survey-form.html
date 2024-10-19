@@ -1,0 +1,38 @@
+
+
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+  <link href="survey.css" rel="stylesheet">
+  </head>
+  <body>
+  <h1 id="title">Nepalese International Student Survey </h1>
+  <p id="description">Survey for Nepalese international student</P>
+  <form id="survey-form">
+    <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your full name." /><//label>
+    <label id="email-label">Email<input id="email" type="email" required placeholder="Enter your email."/></label>
+    <label id="number-label">Years in finland<input type="number" id="number" min="1" max="8" placeholder="how long you have been to finland?"/>
+    <label id="situation">Your work situation?
+    <select id="dropdown">
+      <option value="">(Select one)</option>
+      <option value"1">Employed</option>
+      <option value="2">Unemployed</option></select><hr>
+  <p2>What is your academic year</p2>
+  <label for="firstyear"><input id="firstyear" type="radio" checked class="inline" name="status" value="1"/>First year</label>
+  <label for="secondyear"><input id="secondyear" type=radio class="inline" name="status" value="2"/>Second year</label>
+   <label for="thirdyear"><input id="thirdyear" type=radio class="inline" name="status" value="3"/>Third  year</label><hr>
+ <p3>Plans after study</p3>
+ <label for="future"><input type="checkbox" id="future" value="work" class="inline" >Returning to home country</label>
+ <label><input type="checkbox" value="work" class="inline" >Work</label>
+ <label><input type="checkbox"  value="relation" class="inline" >Marriage</label>
+     <label for="future"><input type="checkbox" id="future" value="work" class="inline" >Internship</label>
+     <hr>
+     <label for="feedback">How can we manage unemployment situation for international students?</label>
+     <textarea id="feedback" row="6" col="30" placeholder="Tips for finding jobs for international students......"></textarea>
+     <hr>
+   <input  id="submit" type="submit" class="submit">
+  
+   
+   
